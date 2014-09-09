@@ -286,21 +286,6 @@ function swim_libraries_info() {
       ),
     ),
   );
-//  $libraries['mathjax'] = array(
-//    'name' => 'MathJax',
-//    'vendor url' => 'https://github.com/mathjax/MathJax/',
-//    'download url' => 'https://github.com/mathjax/MathJax/',
-//    'version arguments' => array(
-//      'file' => 'MathJax.js',
-//      // Sample: MathJax.version="2.4.0";
-//      'pattern' => '/version\=\"([\d\.]*)\"/',
-//    ),
-//    'files' => array(
-//      'js' => array(
-//        'MathJax.js',
-//      ),
-//    ),
-//  );
   return $libraries;
 }
 
@@ -327,15 +312,6 @@ function _swim_add_client_pieces( $add_plugins = TRUE ) {
     cyco_core_handle_error( $message );
     return;
   }
-//  //Load MathJax.
-//  $mj_library_info = libraries_load('mathjax');
-//  $num_files_loaded = libraries_load_files($mj_library_info);
-//  if ( $num_files_loaded <= 0 ) {
-//    $message = __FILE__ . ' (line ' . __LINE__ . ') ' . __FUNCTION__ 
-//        . 'SWIM error: no MathJax files loaded. Is it installed?';
-//    cyco_core_handle_error( $message );
-//    return;
-//  }
   //Add CSS.
   drupal_add_css( drupal_get_path('module', 'swim') . '/css/swim.css' );
   //Add services library.
@@ -548,7 +524,6 @@ function swim_field_formatter_view(
         $content = $item['value'];
         //Convert from Textile to HTML
         $output = swim_textile2html( $content );
-//        $output = swim_rest2html( $tokenized );
         if ($display['type'] == 'swim_trimmed_formatter') {
           $output = text_summary($output, NULL, $display['settings']['trim_length']);
         }
