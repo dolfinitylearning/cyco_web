@@ -1,0 +1,6 @@
+name = Table of Contents
+description = Table of contents for CyberCourse pages
+core = 7.x
+package = CyberCourse
+version = 7.x-1.0
+stylesheets[all][] = css/cyco_toc.css

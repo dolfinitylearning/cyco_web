@@ -1,0 +1,60 @@
+/*
+Customizations for presentation.
+*/
+/* 
+    Created on : Jul 26, 2014, 5:42:05 PM
+    Author     : mathieso
+*/
+.reveal section p {
+  text-align: left;
+  font-size: 150%;
+}
+
+.reveal section p.right {
+  text-align: right;
+}
+
+div#arrow-pointer {
+  font-size: 90%;
+  color: yellow;
+  right: 10px;
+  position: absolute;
+  font-family: Lato, sans-serif;
+}
+
+#custom-controls {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  display: none;
+}
+
+.reveal section.smaller-text p {
+  font-size: 120%;
+}
+
+.reveal section .highlight {
+  color: yellow;
+}
+
+.reveal section ul li {
+  font-size: 120%;
+  margin-bottom: 20px;
+}
+
+.reveal .center {
+  text-align: center;
+}
+  
+.reveal .left {
+  text-align: left;
+}
+
+.reveal .cracked {
+  font-family: 'Wallpoet', cursive;
+}
+
+.reveal section.four-roles  p {
+  margin-bottom: 0.5em;
+}
+  
