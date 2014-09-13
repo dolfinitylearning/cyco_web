@@ -207,3 +207,14 @@ div.mollom-privacy {
   margin-top: 5px;
   font-size: 200%;
 }
+
+
+#gists td.thumbnail {
+  margin-right: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+#gists td.thumbnail img {
+  margin: 0;
+}
