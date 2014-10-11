@@ -31,6 +31,7 @@ ul.cyco-book-tree-menu li span.no-branch {
   cursor: pointer;
   background-size: 1em;
   vertical-align: middle;
+  margin-left: -1em;
 }
 
 ul.cyco-book-tree-menu li span.close-branch {
@@ -43,5 +44,4 @@ ul.cyco-book-tree-menu li span.no-branch {
   background-image: url(../images/stop.svg);
   width: 0.6em;
   height: 0.6em;
-  margin: 0.2em;
 }
