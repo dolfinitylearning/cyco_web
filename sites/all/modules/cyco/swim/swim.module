@@ -514,6 +514,7 @@ function swim_field_formatter_view(
   //MathJax
   drupal_add_js('https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML');
   drupal_add_js( drupal_get_path('module', 'swim') . '/js/swim_mathjax_config.js' );
+  drupal_add_css( drupal_get_path('module', 'swim') . '/css/swim_custom.css' );
   //Styles
   drupal_add_css( drupal_get_path('module', 'swim') . '/css/swim.css' );
   $element = array();
