@@ -253,7 +253,7 @@
             .dialog( "option", "height", 
               h + toolbarHeight + dialogTitleHeight + 40 
             )
-            .dialog( "option", "title", "Peek (Desktop/laptop)");
+            .dialog( "option", "title", "Peek (desktop/laptop)");
       }
       else if (    editor.selectedPeek == 'phone' 
                 || editor.selectedPeek == 'tablet' ) {
@@ -268,8 +268,8 @@
             )
             .dialog( "option", "title", 
                 (editor.selectedPeek == 'phone')
-                ? "Peek (iPhone 1 to 4S, landscape)"
-                : "Peek (iPad 1 and 2, portrait)"
+                ? "Peek (smartphone)"
+                : "Peek (tablet)"
         );
       }
       else {
