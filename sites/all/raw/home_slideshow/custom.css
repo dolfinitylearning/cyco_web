@@ -29,7 +29,7 @@ div#arrow-pointer {
   display: none;
 }
 
-.reveal section.smaller-text p {
+.reveal .smaller-text {
   font-size: 120%;
 }
 
@@ -62,4 +62,11 @@ div#arrow-pointer {
   height: 70px;
 }
 
+.reveal .big-text {
+  font-size: 200%;
+}
 
+.reveal .tool-type {
+  color: #FFCC00;
+  font-weight: bold;
+}
