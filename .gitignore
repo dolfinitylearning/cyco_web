@@ -13,3 +13,6 @@ sites/default/files/xmlsitemap
 
 nbproject/
 /error_log
+
+# Ignore .htaccess, so subdomain-specific edits aren't killed.
+.htaccess
