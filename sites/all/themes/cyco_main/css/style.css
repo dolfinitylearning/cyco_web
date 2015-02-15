@@ -208,13 +208,13 @@ div.mollom-privacy {
 }
 
 
-#gists td.thumbnail {
+.gists td.thumbnail {
   margin-right: 1em;
   margin-bottom: 1em;
   margin-top: 1em;
 }
 
-#gists td.thumbnail img {
+.gists td.thumbnail img {
   margin: 0;
 }
 
